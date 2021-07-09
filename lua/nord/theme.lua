@@ -71,7 +71,7 @@ theme.loadEditor = function ()
 		Conceal =				{ fg = nord.disabled }, -- placeholder characters substituted for concealed text (see 'conceallevel')
 		Cursor =				{ fg = nord.nord4_gui, bg = nord.none, style = 'reverse' }, -- the character under the cursor
 		CursorIM =				{ fg = nord.cursor, bg = nord.none, style = 'reverse' }, -- like Cursor, but used when in IME mode
-		Directory =				{ fg = nord.nord7_gui, bg = nord.none }, -- directory names (and other special names in listings)
+		Directory =				{ fg = nord.nord7_gui, bg = nord.none, style='italic' }, -- directory names (and other special names in listings)
 		DiffAdd =				{ fg = nord.nord14_gui, bg = nord.none, style = 'reverse' }, -- diff mode: Added line
 		DiffChange =			{ fg = nord.nord12_gui, bg = nord.none, style = 'reverse' }, --  diff mode: Changed line
 		DiffDelete =			{ fg = nord.nord11_gui, bg = nord.none, style = 'reverse' }, -- diff mode: Deleted line
@@ -342,7 +342,7 @@ theme.loadPlugins = function()
         NvimTreeImageFile =                     { fg = nord.nord4_gui },
         NvimTreeExecFile =                      { fg = nord.nord14_gui },
         NvimTreeSpecialFile =                   { fg = nord.nord13_gui , style = "underline" },
-        NvimTreeFolderName=                     { fg = nord.nord7_gui, style="italic" },
+        NvimTreeFolderName=                     { fg = nord.nord7_gui},
         NvimTreeEmptyFolderName=                { fg = nord.disabled },
         NvimTreeFolderIcon=                     { fg = nord.disabled },
         NvimTreeIndentMarker =                  { fg  = nord.disabled },
