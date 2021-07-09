@@ -10,7 +10,7 @@ theme.loadSyntax = function ()
 		StorageClass =				{ fg = nord.nord9_gui}, -- static, register, volatile, etc.
 		Structure =					{ fg = nord.nord9_gui}, -- struct, union, enum, etc.
 		Constant =					{ fg = nord.nord4_gui}, -- any constant
-		String =					{ fg = nord.nord14_gui, bg = nord.none, style= 'italic' }, -- Any string
+		String =					{ fg = nord.nord14_gui, bg = nord.none}, -- Any string
 		Character =					{ fg = nord.nord14_gui}, -- any character constant: 'c', '\n'
 		Number =					{ fg = nord.nord15_gui }, -- a number constant: 5
 		Boolean =					{ fg = nord.nord9_gui}, -- a boolean constant: TRUE, false
