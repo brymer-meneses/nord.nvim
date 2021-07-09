@@ -198,7 +198,7 @@ theme.loadTreeSitter = function ()
         TSConstBuiltin =            { fg = nord.nord7_gui },    -- For constant that are built in the language: `nil` in Lua.
         TSConstMacro =              { fg = nord.nord7_gui },    -- For constants that are defined by macros: `NULL` in C.
         TSError =                   { fg = nord.error },    -- For syntax/parser errors.
-        TSException =               { fg = nord.nord15_gui },    -- For exception related keywords.
+        TSException =               { fg = nord.nord13_gui },    -- For exception related keywords.
         TSField =                   { fg = nord.gray }, -- For fields.
         --TSFloat =                   { fg = nord.nord11_gui },    -- For floats.
         TSFuncMacro =               { fg = nord.nord7_gui },    -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
@@ -319,9 +319,9 @@ theme.loadPlugins = function()
         GitSignsAdd =                           { fg = nord.nord14_gui }, -- diff mode: Added line |diff.txt|
         GitSignsAddNr =                         { fg = nord.nord14_gui }, -- diff mode: Added line |diff.txt|
         GitSignsAddLn =                         { fg = nord.nord14_gui }, -- diff mode: Added line |diff.txt|
-        GitSignsChange =                        { fg = nord.nord15_gui }, -- diff mode: Changed line |diff.txt|
-        GitSignsChangeNr =                      { fg = nord.nord15_gui }, -- diff mode: Changed line |diff.txt|
-        GitSignsChangeLn =                      { fg = nord.nord15_gui }, -- diff mode: Changed line |diff.txt|
+        GitSignsChange =                        { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
+        GitSignsChangeNr =                      { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
+        GitSignsChangeLn =                      { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
         GitSignsDelete =                        { fg = nord.nord11_gui }, -- diff mode: Deleted line |diff.txt|
         GitSignsDeleteNr =                      { fg = nord.nord11_gui }, -- diff mode: Deleted line |diff.txt|
         GitSignsDeleteLn =                      { fg = nord.nord11_gui }, -- diff mode: Deleted line |diff.txt|
@@ -347,7 +347,7 @@ theme.loadPlugins = function()
         NvimTreeFolderIcon=                     { fg = nord.accent },
         NvimTreeIndentMarker =                  { fg  = nord.disabled },
         LspDiagnosticsError =                   { fg = nord.error },
-        LspDiagnosticsWarning =                 { fg = nord.nord15_gui },
+        LspDiagnosticsWarning =                 { fg = nord.nord12_gui },
         LspDiagnosticsInformation =             { fg = nord.nord10_gui },
         LspDiagnosticsHint =                    { fg = nord.nord9_gui },
 
