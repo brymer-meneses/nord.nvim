@@ -71,7 +71,7 @@ theme.loadEditor = function ()
 		Conceal =				{ fg = nord.disabled }, -- placeholder characters substituted for concealed text (see 'conceallevel')
 		Cursor =				{ fg = nord.nord4_gui, bg = nord.none, style = 'reverse' }, -- the character under the cursor
 		CursorIM =				{ fg = nord.cursor, bg = nord.none, style = 'reverse' }, -- like Cursor, but used when in IME mode
-		Directory =				{ fg = nord.nord7_gui, bg = nord.none, style='italic' }, -- directory names (and other special names in listings)
+		Directory =				{ fg = nord.comments, bg = nord.none, style='italic' }, -- directory names (and other special names in listings)
 		DiffAdd =				{ fg = nord.nord14_gui, bg = nord.none, style = 'reverse' }, -- diff mode: Added line
 		DiffChange =			{ fg = nord.nord12_gui, bg = nord.none, style = 'reverse' }, --  diff mode: Changed line
 		DiffDelete =			{ fg = nord.nord11_gui, bg = nord.none, style = 'reverse' }, -- diff mode: Deleted line
@@ -261,7 +261,7 @@ theme.loadLSP = function ()
         LspDiagnosticsSignWarning =             { fg = nord.nord13_gui}, -- used for "Warning" diagnostic signs in sign column
         LspDiagnosticsFloatingWarning =         { fg = nord.nord13_gui}, -- used for "Warning" diagnostic messages in the diagnostics float
         LspDiagnosticsVirtualTextWarning =      { fg = nord.nord13_gui}, -- Virtual text "Warning"
-        LspDiagnosticsUnderlineWarning =        { style = 'undercurl', sp = nord.nord15_gui }, -- used to underline "Warning" diagnostics.
+        LspDiagnosticsUnderlineWarning =        { style = 'undercurl', sp = nord.nord13_gui }, -- used to underline "Warning" diagnostics.
         LspDiagnosticsDefaultInformation =      { fg = nord.nord10_gui }, -- used for "Information" diagnostic virtual text
         LspDiagnosticsSignInformation =         { fg = nord.nord10_gui },  -- used for "Information" diagnostic signs in sign column
         LspDiagnosticsFloatingInformation =     { fg = nord.nord10_gui }, -- used for "Information" diagnostic messages in the diagnostics float
