@@ -75,7 +75,7 @@ theme.loadEditor = function ()
 		DiffAdd =				{ fg = nord.nord14_gui, bg = nord.none, style = 'reverse' }, -- diff mode: Added line
 		DiffChange =			{ fg = nord.nord12_gui, bg = nord.none, style = 'reverse' }, --  diff mode: Changed line
 		DiffDelete =			{ fg = nord.nord11_gui, bg = nord.none, style = 'reverse' }, -- diff mode: Deleted line
-		DiffText =				{ fg = nord.nord15_gui, bg = nord.none, style = 'reverse' }, -- diff mode: Changed text within a changed line
+		DiffText =				{ fg = nord.nord13_gui, bg = nord.none, style = 'reverse' }, -- diff mode: Changed text within a changed line
 		EndOfBuffer =			{ fg = nord.disabled },
 		ErrorMsg =				{ fg = nord.none },
 		Folded =				{ fg = nord.disabled, nord.none, style = 'italic' },
@@ -83,7 +83,7 @@ theme.loadEditor = function ()
 		IncSearch =				{ fg = nord.none, bg = nord.nord4_gui, style = 'reverse' },
 		LineNr =				{ fg = nord.line_numbers },
 		CursorLineNr =			{ fg = nord.accent },
-		MatchParen =			{ fg = nord.nord15_gui, bg = nord.none, style = 'bold' },
+		MatchParen =			{ fg = nord.nord13_gui, bg = nord.none, style = 'bold' },
 		ModeMsg =				{ fg = nord.accent },
 		MoreMsg =				{ fg = nord.accent },
 		NonText =				{ fg = nord.disabled },
@@ -110,7 +110,7 @@ theme.loadEditor = function ()
 		Title =					{ fg = nord.nord14_gui, bg = nord.none, style = 'bold' },
 		Visual =				{ fg = nord.none, bg = nord.selection },
 		VisualNOS =				{ fg = nord.none, bg = nord.selection },
-		WarningMsg =			{ fg = nord.nord15_gui },
+		WarningMsg =			{ fg = nord.nord13_gui },
 		WildMenu =				{ fg = nord.nord12_gui, bg = nord.none, style = 'bold' },
 		CursorColumn =			{ fg = nord.none, bg = nord.active },
 		CursorLine =			{ fg = nord.none, bg = nord.cursorlinefg },
@@ -121,11 +121,11 @@ theme.loadEditor = function ()
 		ReplacelMode =			{ fg = nord.nord11_gui, bg = nord.none, style = 'reverse' },
 		VisualMode =			{ fg = nord.nord9_gui, bg = nord.none, style = 'reverse' },
 		CommandMode =			{ fg = nord.gray, bg = nord.none, style = 'reverse' },
-		Warnings =				{ fg = nord.nord15_gui },
+		Warnings =				{ fg = nord.nord13_gui },
 
         healthError =           { fg = nord.error },
         healthSuccess =         { fg = nord.nord14_gui },
-        healthWarning =         { fg = nord.nord15_gui },
+        healthWarning =         { fg = nord.nord13_gui },
 
         -- dashboard
         DashboardShortCut =                     { fg = nord.nord7_gui },
@@ -221,9 +221,9 @@ theme.loadTreeSitter = function ()
         TSType =                    { fg = nord.nord9_gui},    -- For types.
         TSTypeBuiltin =             { fg = nord.nord9_gui},    -- For builtin types.
         TSTag =                     { fg = nord.nord4_gui },    -- Tags like html tag names.
-        TSTagDelimiter =            { fg = nord.nord15_gui },    -- Tag delimiter like `<` `>` `/`
+        TSTagDelimiter =            { fg = nord.nord13_gui },    -- Tag delimiter like `<` `>` `/`
         TSText =                    { fg = nord.text },    -- For strings considenord11_gui text in a markup language.
-        TSTextReference =           { fg = nord.nord15_gui }, -- FIXME
+        TSTextReference =           { fg = nord.nord4_gui }, -- FIXME
         TSEmphasis =                { fg = nord.nord10_gui },    -- For text to be represented with emphasis.
         TSUnderline =               { fg = nord.fg, bg = nord.none, style = 'underline' },    -- For text to be represented with an underline.
         TSStrike =                  { },    -- For strikethrough text.
@@ -257,10 +257,10 @@ theme.loadLSP = function ()
         LspDiagnosticsFloatingError =           { fg = nord.error }, -- used for "Error" diagnostic messages in the diagnostics float
         LspDiagnosticsVirtualTextError =        { fg = nord.error }, -- Virtual text "Error"
         LspDiagnosticsUnderlineError =          { style = 'undercurl', sp = nord.error }, -- used to underline "Error" diagnostics.
-        LspDiagnosticsDefaultWarning =          { fg = nord.nord15_gui}, -- used for "Warning" diagnostic signs in sign column
-        LspDiagnosticsSignWarning =             { fg = nord.nord15_gui}, -- used for "Warning" diagnostic signs in sign column
-        LspDiagnosticsFloatingWarning =         { fg = nord.nord15_gui}, -- used for "Warning" diagnostic messages in the diagnostics float
-        LspDiagnosticsVirtualTextWarning =      { fg = nord.nord15_gui}, -- Virtual text "Warning"
+        LspDiagnosticsDefaultWarning =          { fg = nord.nord13_gui}, -- used for "Warning" diagnostic signs in sign column
+        LspDiagnosticsSignWarning =             { fg = nord.nord13_gui}, -- used for "Warning" diagnostic signs in sign column
+        LspDiagnosticsFloatingWarning =         { fg = nord.nord13_gui}, -- used for "Warning" diagnostic messages in the diagnostics float
+        LspDiagnosticsVirtualTextWarning =      { fg = nord.nord13_gui}, -- Virtual text "Warning"
         LspDiagnosticsUnderlineWarning =        { style = 'undercurl', sp = nord.nord15_gui }, -- used to underline "Warning" diagnostics.
         LspDiagnosticsDefaultInformation =      { fg = nord.nord10_gui }, -- used for "Information" diagnostic virtual text
         LspDiagnosticsSignInformation =         { fg = nord.nord10_gui },  -- used for "Information" diagnostic signs in sign column
@@ -294,7 +294,7 @@ theme.loadPlugins = function()
         -- Diff
         diffAdded =                             { fg = nord.nord14_gui },
         diffRemoved =                           { fg = nord.nord11_gui },
-        diffChanged =                           { fg = nord.nord15_gui },
+        diffChanged =                           { fg = nord.nord13_gui },
         diffOldFile =                           { fg = nord.yelow },
         diffNewFile =                           { fg = nord.nord12_gui },
         diffFile =                              { fg = nord.nord7_gui },
@@ -312,7 +312,7 @@ theme.loadPlugins = function()
 
         -- GitGutter
         GitGutterAdd =                          { fg = nord.nord14_gui }, -- diff mode: Added line |diff.txt|
-        GitGutterChange =                       { fg = nord.nord15_gui }, -- diff mode: Changed line |diff.txt|
+        GitGutterChange =                       { fg = nord.nord13_gui }, -- diff mode: Changed line |diff.txt|
         GitGutterDelete =                       { fg = nord.nord11_gui }, -- diff mode: Deleted line |diff.txt|
 
         -- GitSigns
@@ -337,9 +337,9 @@ theme.loadPlugins = function()
 
         -- NvimTree
         NvimTreeRootFolder =                    { fg = nord.nord7_gui, style = "bold" },
-        NvimTreeGitDirty =                      { fg = nord.nord15_gui },
+        NvimTreeGitDirty =                      { fg = nord.nord13_gui },
         NvimTreeGitNew =                        { fg = nord.nord14_gui },
-        NvimTreeImageFile =                     { fg = nord.nord15_gui },
+        NvimTreeImageFile =                     { fg = nord.nord4_gui },
         NvimTreeExecFile =                      { fg = nord.nord14_gui },
         NvimTreeSpecialFile =                   { fg = nord.nord9_gui , style = "underline" },
         NvimTreeFolderName=                     { fg = nord.nord10_gui },
@@ -361,7 +361,7 @@ theme.loadPlugins = function()
 
         -- LspSaga
         DiagnosticError =                       { fg = nord.error },
-        DiagnosticWarning =                     { fg = nord.nord15_gui },
+        DiagnosticWarning =                     { fg = nord.nord13_gui },
         DiagnosticInformation =                 { fg = nord.nord10_gui },
         DiagnosticHint =                        { fg = nord.nord9_gui },
         DiagnosticTruncateLine =                { fg = nord.fg },
